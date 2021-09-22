@@ -295,7 +295,7 @@ h3 {
     display: inline-block;
     margin: 1.4em auto 3em;
     text-align: center;
-    padding: 5px 2px;
+    padding: 5px 20px;
     width: 150px;
     outline: none;
     color: #39445F;
@@ -303,6 +303,12 @@ h3 {
     text-transform: uppercase;
     border-radius: 4px;
     transition: 0.25s;
+}
+
+.email-form__content input[type="submit"]:hover,
+.email-form__content input[type="submit"]:active {
+    background: none;
+    color: #FC85AE;
 }
 
 .email-form__content select {
