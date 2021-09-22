@@ -10,15 +10,14 @@
     </head>
     <body>
 
-        
-        <nav id="nav">
+        <!-- <nav id="nav">
             <div class="inner-wrapper">
                 <svg viewBox="0 0 32 37" id="exit-btn">
                     <path id="back" d="M15.9,4.492a3,3,0,0,1,5.194,0L34.4,27.5A3,3,0,0,1,31.8,32H5.2a3,3,0,0,1-2.6-4.5Z" transform="translate(0 37) rotate(-90)" fill="#fff"/>
                 </svg>
-                
+                 -->
                 <!-- <img src="./img/logo.png" alt="">   -->
-            </div>
+            <!-- </div>
             <ul>
                 <li class="selected"><a href="#">Dashboard</a></li>
                 <li><a href="#">About</a></li>
@@ -37,9 +36,16 @@
             
             <a href="#" class="cta-btn">Contact me</a>
         </header>
-        
+         -->
+
+        <header>
+            <h1>Daniel Ba - Photography</h1>
+            <svg height="32px" id="menu-btn" class="open" viewBox="0 0 32 32">
+                <path fill="white" d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
+            </svg>
+        </header>
+
         <main>
-            <h1>Welcome, User ! </h1>
             
             <section class="panel">
                 <ul class="data">
@@ -68,7 +74,7 @@
                     </li>
                 </ul>
             </section>
-
+            
             <section class="panel">
                 <ul class="data">
                     <li>
@@ -83,27 +89,28 @@
                 </ul>
             </section>
             
-            <div class="columns half">
-                <div class="col left">
-                    <h3>Book your Shooting today!</h3>
-                    <p>Book your own personal or business shooting, by getting into contact with me by using this simple email form below. All you have to do is enter your name, choose which shooting you prefer and your email adress. I will get in contact with shortly.</p>
+            <div class="footer">
+                <div class="footer-text__content">
+                    <h3 class="footer-text__heading">Book your Session today!</h3>
+                    <p class="footer-text__subtext">Book your own personal or business shooting, by getting into contact with me using this simple email form below. All you have to do is enter your name, choose which shooting you prefer and your email adress. <strong>I will get in contact with you shortly</strong>.</p>
                 </div>
-                <div class="col">
+
                     <div class="email-form__container">
                         <div class="email-form__content">
                             <form action="#" method="POST" class="email-collector">
-                                <select name="module" id="module" required>
-                                    <option value="business-shooting">Professional Business Shooting</option>
-                                    <option value="people-shooting">Professional Portait Shooting</option>
-                                    <option value="art-shooting">Artwork Shooting</option>
-                                </select>
                                 <input name="firstName" type="text" required placeholder="first name">
                                 <input name="emailAdress" type="email" required placeholder="email">
-                                <button class="btn btn-email">Get in contact</button>
+
+                                <!-- <select name="module" id="module" required>
+                                    <option value="placeholder">Choose your Shooting...</option>
+                                    <option value="business-shooting">Business Shooting</option>
+                                    <option value="people-shooting">Portait Shooting</option>
+                                </select> -->
+                                <input type="submit" name="submit" id="submit">
+                                <!-- <button class="btn btn-email">Get in contact</button> -->
                             </form>
                         </div>
                     </div>
-                </div>
             </div>
         </main>
         
