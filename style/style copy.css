@@ -57,6 +57,9 @@ a.cta-btn {
     font-weight: bold;
 }
 
+/* Navigation */
+
+
 nav {
     position: fixed;
     height: 100vh;
@@ -88,11 +91,6 @@ nav ul li a {
     padding: .8em 1em;
 }
 
-nav img {
-    top: 0;
-    left: 0;
-}
-
 .selected {
     background: #9E579D;
 }
@@ -103,12 +101,12 @@ nav img {
     transform: translateX(0);
 }
 
+
 /* Main Section */
 
 
 h1 {
     color: white;
-    font-size: 19px;
     
 }
 
@@ -300,23 +298,19 @@ h3 {
 
 /* Desktop size setting */
 
-/* @media (min-width: 850px) {
+@media (min-width: 850px) {
     body {
         display: grid;
-        grid-template-columns: 175px auto;
+        grid-template-columns: 200px auto;
         grid-template-rows: 70px auto;
         grid-template-areas:
-            "sidebar main"
+            "sidebar header"
             "sidebar main";
         padding: 0;
     }
     
     header, main {
         padding: 1.5em;
-    }
-
-    .inner-wrapper {
-        visibility: hidden;
     }
     
     nav {
@@ -343,4 +337,4 @@ h3 {
     svg {
         display: none;
     }
-} */
+}
