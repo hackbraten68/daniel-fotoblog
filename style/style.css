@@ -59,7 +59,7 @@ main {
 }
 
 .panel__image {
-    display: block;
+    /* display: block; */
     opacity: 40%;
 }
 
