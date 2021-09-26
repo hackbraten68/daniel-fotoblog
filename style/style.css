@@ -17,6 +17,7 @@ html, body {
     --color-grey: #39445F;
     --color-accent: #FC85AE;
     --color-text: #A5B2D3;
+    --background-navbar: #2C354A;
 }
 
 body {
@@ -27,14 +28,24 @@ body {
 
 /* NAVBAR */
 
-nav {
+.navbar {
+    width: 100%;
+    visibility: hidden;
+    /* height: 100vh; */
+    position: fixed;
+    top: 0%;
+    background-color: var(--background-navbar);
+}
 
+.navbar li {
+    list-style: none;
 }
 
 /* MAIN CONTENT */
 
 main {
     padding: 0.5em;
+    /* margin-top: 5rem; */
 }
 
 .panel {

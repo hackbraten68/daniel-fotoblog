@@ -10,13 +10,22 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">        <link rel="stylesheet" href="./style/style.css">
-    </head>
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    </head>
+        <link rel="stylesheet" href="./style/style.css">
 
     <body>
 
-        
+        <nav class="navbar">
+            <ul class="navbar-nav">
+                <li class="navbar__item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-link__icon">
+                            <i class="fab fa-instagram"></i>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
         <main>
             <div class="panel panel--business">
@@ -54,10 +63,12 @@
             </div>
 
             <div class="email-form__container">
-                <form action="#" method="POST" class="email-collector">
+                <form action="https://formsubmit.co/sam.studi@gmail.com" method="POST" class="email-collector">
                     <input name="firstName" type="text" required placeholder="first name">
                     <input name="emailAdress" type="email" required placeholder="email">
                     <input type="submit" name="submit" id="submit">
+
+                    <input type="hidden" name="_next" value="./index.html">
                 </form>
             </div>
         </footer>
