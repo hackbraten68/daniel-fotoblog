@@ -61,6 +61,7 @@ main {
 .panel__image {
     /* display: block; */
     opacity: 40%;
+    object-fit: cover;
 }
 
 /* BUSINESS POSITIONING */
