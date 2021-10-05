@@ -62,6 +62,7 @@ main {
     /* display: block; */
     opacity: 40%;
     object-fit: cover;
+    align-items: flex-start;
 }
 
 /* BUSINESS POSITIONING */
