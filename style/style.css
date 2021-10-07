@@ -28,6 +28,22 @@ body {
 
 /* NAVBAR */
 
+.logo {
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo img {
+    width: 360px;
+    height: 230px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    opacity: 75%;
+    margin: 1em auto;
+}
+
 .navbar {
     width: 100%;
     visibility: hidden;
@@ -207,7 +223,7 @@ i {
 
 .email-form__container input[type="text"]:focus,
 .email-form__container input[type="email"]:focus {
-    width: 300px;
+    width: 260px;
     border-color: yellow;
 }
 
