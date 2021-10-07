@@ -45,16 +45,22 @@ body {
 }
 
 .navbar {
-    width: 100%;
-    visibility: hidden;
+    width: 360px;
+    visibility: visible;
     /* height: 100vh; */
     position: fixed;
-    top: 0%;
+    bottom: 0%;
+    z-index: 100;
     background-color: var(--background-navbar);
+    border-radius: .5em;
 }
 
-.navbar li {
+.navbar-nav {
     list-style: none;
+    padding: 1em 1.5em;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* MAIN CONTENT */
@@ -231,7 +237,7 @@ i {
     border: 2px solid #FC85AE;
     background: #FC85AE;
     display: inline-block;
-    margin: 1.4em auto 3em;
+    margin: 1.4em auto 0.5em;
     text-align: center;
     padding: 5px 20px;
     width: 150px;
