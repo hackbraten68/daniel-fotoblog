@@ -51,18 +51,19 @@ main {
 .panel {
     display: flex;
     flex-direction: column;
-
     background: var(--color-grey);
+    max-width: 360px;
     padding: 0.75em;
     margin: 1.5em 0.5em;
     /* border-radius: 0.25em; */
 }
 
-.panel__image {
+.panel__image img {
     /* display: block; */
     opacity: 40%;
-    object-fit: cover;
-    align-items: flex-start;
+    width: 305px;
+    justify-self: flex-start;
+    /* align-items: flex-start; */
 }
 
 /* BUSINESS POSITIONING */
