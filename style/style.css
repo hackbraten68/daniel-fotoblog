@@ -45,6 +45,7 @@ body {
 }
 
 .navbar {
+    display: inline-block;
     width: 360px;
     visibility: visible;
     /* height: 100vh; */
@@ -53,7 +54,12 @@ body {
     z-index: 100;
     background-color: var(--background-navbar);
     border-radius: .5em;
+    transition: top 0.5s ease-in-out;
 }
+
+.navbar.hide {
+    top: -50px
+ }
 
 .navbar-nav {
     list-style: none;
@@ -254,3 +260,24 @@ i {
     background: none;
     color: #FC85AE;
 }
+
+/* RESPONSIVE MEDIA */
+
+/* LARGE PHONES 414px SCREEN */
+
+/* @media(min-width: 414px) {
+    .navbar,
+    .panel {
+        width: 414px;
+    }
+} */
+
+/* TABLET SCREEN ??? */
+
+/* TABLET SMALL 768px */
+
+/* TABLET LARGE 1280px */
+
+/* DESKTOP SCREEN 1920px*/
+
+@media(min-width: 1920px)
