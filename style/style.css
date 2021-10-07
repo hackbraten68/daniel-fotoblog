@@ -51,7 +51,6 @@ main {
 .panel {
     display: flex;
     flex-direction: column;
-
     background: var(--color-grey);
     padding: 0.75em;
     margin: 1.5em 0.5em;
@@ -62,7 +61,8 @@ main {
     /* display: block; */
     opacity: 40%;
     object-fit: cover;
-    align-items: flex-start;
+    justify-self: flex-start;
+    /* align-items: flex-start; */
 }
 
 /* BUSINESS POSITIONING */
