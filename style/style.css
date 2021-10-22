@@ -45,16 +45,28 @@ body {
 }
 
 .navbar {
-    width: 100%;
-    visibility: hidden;
+    display: inline-block;
+    width: 360px;
+    visibility: visible;
     /* height: 100vh; */
     position: fixed;
-    top: 0%;
+    bottom: 0%;
+    z-index: 100;
     background-color: var(--background-navbar);
+    border-radius: .5em;
+    transition: top 0.5s ease-in-out;
 }
 
-.navbar li {
+.navbar.hide {
+    top: -50px
+ }
+
+.navbar-nav {
     list-style: none;
+    padding: 1em 1.5em;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* MAIN CONTENT */
@@ -231,7 +243,7 @@ i {
     border: 2px solid #FC85AE;
     background: #FC85AE;
     display: inline-block;
-    margin: 1.4em auto 3em;
+    margin: 1.4em auto 0.5em;
     text-align: center;
     padding: 5px 20px;
     width: 150px;
@@ -247,4 +259,27 @@ i {
 .email-form__container input[type="submit"]:active {
     background: none;
     color: #FC85AE;
+}
+
+/* RESPONSIVE MEDIA */
+
+/* LARGE PHONES 414px SCREEN */
+
+/* @media(min-width: 414px) {
+    .navbar,
+    .panel {
+        width: 414px;
+    }
+} */
+
+/* TABLET SCREEN ??? */
+
+/* TABLET SMALL 768px */
+
+/* TABLET LARGE 1280px */
+
+/* DESKTOP SCREEN 1920px*/
+
+@media(min-width: 1920px) {
+    
 }
