@@ -89,7 +89,9 @@ main {
 .panel__image img {
     /* display: block; */
     opacity: 40%;
+    -webkit-opacity: 40%;
     width: 305px;
+    object-fit: cover;
     justify-self: flex-start;
     /* align-items: flex-start; */
 }
